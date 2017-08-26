@@ -12,15 +12,5 @@
 *.vxml_c
 *.vcss_c
 
-# Commit panorama compiled textures
-!game/dota_addons/survial_rpg_2/panorama/images/*.vtex_c
-!game/dota_addons/survial_rpg_2/panorama/images/custom_game/*.vtex_c
-!game/dota_addons/survial_rpg_2/materials/overviews/*
-
-# Map overviews
-content/dota_addons/survial_rpg_2/materials/overviews/*.vmat
-content/dota_addons/survial_rpg_2/materials/overviews/*.txt
-game/dota_addons/survial_rpg_2/resource/overviews/*
-
 #Github dump
 *.stackdump
