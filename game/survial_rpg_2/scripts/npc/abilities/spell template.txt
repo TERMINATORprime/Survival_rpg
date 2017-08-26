@@ -1,0 +1,62 @@
+"DOTAAbilities"
+{
+	//----------------------------------------------------------------------------------------------------------------
+	// hero
+	//----------------------------------------------------------------------------------------------------------------
+	"spell_name"
+
+	{
+		//General
+		//----------------------------------------------------------------------------------------------------------------
+		//"ID"							""
+		"BaseClass"             		"ability_datadriven"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		
+		"AbilityTextureName"			"ability_name"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		//"AbilityUnitTargetFlags"      "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+		
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		//"FightRecapLevel"             "1"
+		"MaxLevel" 						"4"
+		"RequiredLevel"                 "1"
+		"LevelsBetweenUpgrades"         "2"
+		
+
+		//Stats
+		//----------------------------------------------------------------------------------------------------------------
+		//Casting
+		//----------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		//Time
+		//----------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20 15 10 5"
+
+		//Cost
+		//----------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"100"
+
+		//Damage
+		//----------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"50 150 250 450"
+
+		//Special
+		//----------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"stun_duration"		"1"
+			}
+			
+		}
+	}
+}
